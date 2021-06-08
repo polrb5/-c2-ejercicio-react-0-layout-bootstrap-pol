@@ -20,6 +20,13 @@ function App() {
       <div className="container">
         <header className="cabecera text-white row align-items-center">
           <h1 className="col m-0">{titulo}</h1>
+          <nav className="col text-right">
+            <ul className="links-navegacion list-inline m-0">
+              <li className="list-inline-item">hola</li>
+              <li className="list-inline-item">adiós</li>
+              <li className="list-inline-item">ciao</li>
+            </ul>
+          </nav>
         </header>
         <div className="contenedor-principal row">
           <main className="principal col-12 col-sm-7 col-md-8 py-4">
